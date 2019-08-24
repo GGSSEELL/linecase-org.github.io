@@ -1,0 +1,84 @@
+@media screen and (max-width: 1500px) {
+  	.blocks{
+		display: block;
+		min-width: 900px;
+	}
+}
+
+@media screen and (max-width: 1122px){
+	.subtext{
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 990px){
+	.banner__2{
+		position: absolute;
+		left: -9999px;
+		top: -9999px;
+	}
+
+	.logo{
+		margin-top: 40px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.logo__2{
+		width: 500px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.tipe_text{
+		text-align: center;
+		font-size: 30px;
+	}
+
+	.subtext{
+		text-align: center;
+		width: 600px;
+		font-size: 15px;
+		display: block;
+    	margin: auto;
+	}
+
+	.headline{
+		text-align: center;
+	}
+
+	.block{
+		text-align: center;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 40px;
+		width: 390px;
+	  	height: 359px;
+	 	background-size: cover;
+	  	background-position: center;
+	  	border-radius: 10px;
+	}
+
+	.sidebar__1, .sidebar__2{
+		width: 80%;
+		text-align: center;
+		display: block;
+	    position: relative;
+	    left: 10%;
+	    right: 50%;
+	}
+
+	.sidebar__2{
+		display: inline-block;
+		float: left;
+	}
+}
+
+@media only screen and (max-width: 780px){
+	.subtext{
+		width: 600px;
+	}
+}
